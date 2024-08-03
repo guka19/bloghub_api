@@ -12,3 +12,4 @@ router.put("/update", authenticate, userService.updateUser);
 router.delete("/delete", authenticate,  userService.deleteUser);
 
 module.exports = router;
+    

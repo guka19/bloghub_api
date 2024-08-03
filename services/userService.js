@@ -17,7 +17,7 @@ module.exports = {
         userName: req.body.userName,
         email: req.body.email,
         profilePicture: req.body.profilePicture,
-        bio: req.body.profilePicture,
+        bio: req.body.bio,
         role: "user",
         password: hashedPassword,
       }).save();
